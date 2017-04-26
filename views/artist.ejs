@@ -1,0 +1,5 @@
+<% artists.forEach(function(elem) { %>
+  <% if (elem.images[0]) { %>
+    <img src="<%= elem.images[0].url %>" alt="">
+  <% } %>
+<% }); %>
